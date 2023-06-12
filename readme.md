@@ -1,7 +1,7 @@
 # ThingsML
 ThingsML implementation in Go
 
-ThingsML is a more compact, fully compatible superset of SenML, best suited for limited connections like LoRaWAN and for reducing data transfer costs.
+[ThingsML](https://docs.kpnthings.com/dm/processing/thingsml) is a more compact, fully compatible superset of SenML, best suited for limited connections like LoRaWAN and for reducing data transfer costs.
 
 ## Supported formats
 - JSON
@@ -13,7 +13,7 @@ go get github.com/techfab-iot/thingsml@latest
 ```
 
 ## Normalization
-The main goal of this library is to transform the compact ThingsML structure into a more friendly normalized SenML. You can do this by using thingsml.NormalizeJSON or thingsml.NormalizeCBOR.
+The main goal of this library is to transform the compact ThingsML structure into a more friendly normalized SenML. You can do this by using `thingsml.NormalizeJSON` or `thingsml.NormalizeCBOR`.
 
 ### Example with JSON
 ``` go
